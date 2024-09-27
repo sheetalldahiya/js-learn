@@ -1,11 +1,16 @@
 // var has issue in block and functional scope
 //use let in general
 
+// let a=2 , b=6;
+// console.log(a);
+// console.log(`a:${a},b:${b}`);
+
 /////////////////////////////////////////////////////////////////////////////////////////////
 
 "use strict"; //treats all js as new version
 
 // alert("hello") //we are using nodejs , not browser
+
 
 /////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -69,3 +74,34 @@
 /////////////////////////////////////////////////////////////////////////////////////////////
 
 
+
+// let value=3;
+// let neg=-value;
+// console.log(neg);
+// console.log(2**3); //for power
+
+
+
+
+// console.log("2"+1);  
+// console.log(2+"1");
+// //both output 12  //both string
+// console.log("1"+2+2);  //122
+// console.log(1+2+"2");  //32
+// console.log(typeof(1+2+"2"))
+// // are string
+
+// console.log("6"-2); 
+// console.log(6-"2");  
+// console.log(typeof("6"-2));
+// //both output 4  //both number
+
+
+
+// let x=4,y=4;
+// console.log(x++); //4
+// console.log(++y); //5
+
+// console.log(`x:${x},y:${y}`)
+
+/////////////////////////////////////////////////////////////////////////////////////////////
