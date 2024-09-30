@@ -17,6 +17,7 @@
 
 //no need to tell datatype
 // number , bigint , boolean , string , null
+// 4.5 -> also a number
 // null-> stand alone value  // typeof null -> object
 // undefined ->means value has not assigned
 //symbol -> for unique
@@ -95,6 +96,9 @@
 // console.log(6-"2");  
 // console.log(typeof("6"-2));
 // //both output 4  //both number
+
+
+//don't rely on these type of conversions . they may give wrong results .
 
 
 
